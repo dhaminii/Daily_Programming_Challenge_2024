@@ -17,7 +17,7 @@ int mergeandsort(int a[],int b[],int m,int n){
     }
     while (p1!=p && p2!=p){
         if (p1==p2!=p){
-            p+=1;
+            p2+=1;
         }
         else if (c[p1]<c[p2]){
             p1+=1;
@@ -30,6 +30,8 @@ int mergeandsort(int a[],int b[],int m,int n){
                 tp--;
             }
             c[p1]=t;
+            p1+=1;
+            p2+=1
         }
     }
     
