@@ -31,7 +31,7 @@ int mergeandsort(int a[],int b[],int m,int n){
             }
             c[p1]=t;
             p1+=1;
-            p2+=1
+            p2+=1;
         }
     }
     
